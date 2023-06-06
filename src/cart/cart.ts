@@ -18,7 +18,7 @@ export default class Cart {
 
   }
 
-  get total():number {
+   total():number {
     let total = 0;
 
     this._items.map(product =>{
